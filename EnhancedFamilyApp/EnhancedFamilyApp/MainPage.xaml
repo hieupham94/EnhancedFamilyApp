@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EnhancedFamilyApp"
+             x:Class="EnhancedFamilyApp.MainPage">
+
+  <ContentPage.Content>
+    <ScrollView>
+      <StackLayout Spacing="30">
+        <StackLayout.Children>
+          <Label x:Name="lbl0" />
+          <Label x:Name="lbl1" />
+          <Label x:Name="lbl2" />
+          <Label x:Name="lbl3" />
+          <Label x:Name="lbl4" />
+          <Label x:Name="lbl5" />
+          <Label x:Name="lbl6" />
+          <Label x:Name="lbl7" />
+          <Label x:Name="lbl8" />
+          <Label x:Name="lbl9" />
+        </StackLayout.Children>
+      </StackLayout>
+    </ScrollView>
+  </ContentPage.Content>
+
+</ContentPage>
