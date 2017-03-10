@@ -6,18 +6,20 @@
 
   <ContentPage.Content>
     <ScrollView>
-      <StackLayout Spacing="30">
+      <StackLayout Spacing="0">
         <StackLayout.Children>
-          <Label x:Name="lbl0" />
-          <Label x:Name="lbl1" />
-          <Label x:Name="lbl2" />
-          <Label x:Name="lbl3" />
-          <Label x:Name="lbl4" />
-          <Label x:Name="lbl5" />
-          <Label x:Name="lbl6" />
-          <Label x:Name="lbl7" />
-          <Label x:Name="lbl8" />
-          <Label x:Name="lbl9" />
+          <Label Text="I am number one" />
+          <Image Source="{local:ImageResource EnhancedFamilyApp.image.one.jpg}"
+                 HeightRequest="30"/>
+          <Label Text="I am number one" />
+          <Image Source="{local:ImageResource EnhancedFamilyApp.image.zero.png}"
+                 HeightRequest="30"/>
+          <Label Text="I am number one" />
+          <Image Source="{local:ImageResource EnhancedFamilyApp.image.one.jpg}"
+                 HeightRequest="30"/>
+          <Label Text="I am number one" />
+          <Image Source="{local:ImageResource EnhancedFamilyApp.image.zero.png}"
+                 HeightRequest="30"/>
         </StackLayout.Children>
       </StackLayout>
     </ScrollView>

@@ -13,7 +13,7 @@ namespace EnhancedFamilyApp
         {
             InitializeComponent();
 
-            MainPage = new EnhancedFamilyApp.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
